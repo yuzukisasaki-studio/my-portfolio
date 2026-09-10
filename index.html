@@ -3,38 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>あなたの名前 | Official Links</title>
+    <title>佐々木 祐月 | Yuzuki Sasaki - Official Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- プロフィール部分 -->
-        <header class="profile">
-            <!-- 画像のファイル名が profile.png などの場合はここを変更してください -->
-            <img src="images/profile.jpg" alt="プロフィール画像" class="profile-img">
-            <h1 class="name">あなたの名前 / 名義</h1>
-            <p class="bio">ここに簡単な自己紹介や肩書きを書きます。<br>Webディレクター / 広報 / PR</p>
+    <div class="wrapper">
+        <!-- ヘッダー / プロフィール部分 -->
+        <header class="header">
+            <h1 class="name-en">Yuzuki Sasaki</h1>
+            <p class="name-jp">佐々木 祐月</p>
+            <p class="occupation">PR PLANNING / DIRECTION / PROMOTE</p>
         </header>
 
-        <!-- リンク集ボタン部分 -->
-        <main class="links">
-            <a href="https://instagram.com/ユーザー名" target="_blank" rel="noopener" class="link-btn">
-                Instagram
-            </a>
-            <a href="https://x.com/ユーザー名" target="_blank" rel="noopener" class="link-btn">
-                X (Twitter)
-            </a>
-            <a href="https://note.com/ユーザー名" target="_blank" rel="noopener" class="link-btn">
-                note / ブログ
-            </a>
-            <a href="mailto:your-email@example.com" class="link-btn highlight">
-                お問い合わせ（メール）
-            </a>
+        <!-- メインコンテンツ -->
+        <main class="main-content">
+            <!-- リンク（LinkedInのみ） -->
+            <section class="section">
+                <h2 class="section-title">LINKS</h2>
+                <div class="link-list">
+                    <a href="https://www.linkedin.com/in/yuzuki-sasaki-85b098372/" target="_blank" rel="noopener" class="card-link">
+                        <span class="card-title">LinkedIn</span>
+                        <span class="card-arrow">&rarr;</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- コンタクト（メールのみ） -->
+            <section class="section">
+                <h2 class="section-title">CONTACT</h2>
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-label">EMAIL</span>
+                            <a href="mailto:yuzuki.sasaki.pr@gmail.com" class="contact-value">yuzuki.sasaki.pr@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- フッター -->
-        <footer>
-            <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+        <footer class="footer">
+            <p>&copy; Yuzuki Sasaki. All Rights Reserved.</p>
         </footer>
     </div>
 </body>
